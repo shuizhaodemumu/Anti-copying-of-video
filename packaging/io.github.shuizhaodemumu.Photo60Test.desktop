@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=60 Hz Camera Test
+Name[zh_CN]=60 Hz 屏幕实拍对照
+Comment=Compare how the same text and captioned clip look on camera
+Comment[zh_CN]=用手机对比拍摄同一页文字和带字幕短片
+Exec=photo60-test
+Icon=camera-photo
+Terminal=false
+Categories=Utility;
+StartupNotify=true
