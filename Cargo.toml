@@ -1,0 +1,16 @@
+[package]
+name = "photo60-test"
+version = "0.4.1"
+edition = "2021"
+license = "MIT"
+description = "60 Hz phone camera comparison viewer for Fedora"
+[[bin]]
+name = "photo60-test"
+path = "src/main.rs"
+
+[dependencies]
+gtk4 = { version = "=0.9.7", features = ["v4_8"] }
+image = { version = "=0.25.10", default-features = false, features = ["jpeg"] }
+
+[profile.release]
+strip = true
