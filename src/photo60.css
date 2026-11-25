@@ -1,0 +1,18 @@
+window.photo60 { background: #eeeae3; color: #20272b; }
+.photo60 box.header, .photo60 box.controls { padding: 9px 16px; }
+.photo60 box.header { border-bottom: 1px solid #1f272a; }
+.photo60 box.lower { background: #f6f3ed; }
+.photo60 label.title { font-size: 20px; font-weight: 750; }
+.photo60 label.stat { font-family: "IBM Plex Mono", monospace; font-size: 14px; font-weight: 600; }
+.photo60 label.hint { color: #3f4b4e; font-size: 13px; }
+.photo60 box.hints { padding: 0 16px 12px; }
+.photo60 picture.stage { background: #182124; }
+.photo60 button { min-height: 30px; padding: 3px 12px; border-radius: 7px;
+    background: #e7e4dd; color: #20272b; border: 1px solid #aaa9a2; box-shadow: none; }
+.photo60 button:hover { background: #dcdfd8; }
+.photo60 button:focus-visible { outline: 2px solid #058476; outline-offset: 1px; }
+.photo60 .profiles { margin-left: 6px; }
+.photo60 .profiles button:checked, .photo60 button.selected { background: #314542; color: #fff; border-color: #314542; }
+.photo60 button.action { background: #006d62; color: white; border-color: #006d62; font-weight: 650; }
+.photo60 button.action:hover { background: #005c53; }
+.photo60 button.stop { background: #604636; color: #fff; border-color: #604636; }
